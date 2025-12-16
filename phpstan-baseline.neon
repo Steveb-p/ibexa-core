@@ -58642,18 +58642,6 @@ parameters:
 			message: '#^Anonymous function has an unused use \$content\.$#'
 			identifier: closure.unusedUse
 			count: 1
-			path: tests/lib/MVC/Symfony/Templating/RenderContentStrategyTest.php
-
-		-
-			message: '#^Anonymous function has an unused use \$siteAccess\.$#'
-			identifier: closure.unusedUse
-			count: 1
-			path: tests/lib/MVC/Symfony/Templating/RenderContentStrategyTest.php
-
-		-
-			message: '#^Anonymous function has an unused use \$content\.$#'
-			identifier: closure.unusedUse
-			count: 1
 			path: tests/lib/MVC/Symfony/Templating/RenderLocationStrategyTest.php
 
 		-
