@@ -21,8 +21,6 @@ use Symfony\Component\HttpKernel\Fragment\FragmentRendererInterface;
 
 class RenderLocationStrategyTest extends BaseRenderStrategyTest
 {
-    use ForwardParamOptionsToFragmentRendererTrait;
-
     public function testUnsupportedValueObject(): void
     {
         $renderLocationStrategy = $this->createRenderStrategy(

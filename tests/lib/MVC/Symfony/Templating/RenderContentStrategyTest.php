@@ -21,8 +21,6 @@ use Symfony\Component\HttpKernel\Fragment\FragmentRendererInterface;
 
 class RenderContentStrategyTest extends BaseRenderStrategyTest
 {
-    use ForwardParamOptionsToFragmentRendererTrait;
-
     public function testUnsupportedValueObject(): void
     {
         $renderContentStrategy = $this->createRenderStrategy(
