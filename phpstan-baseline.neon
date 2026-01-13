@@ -58561,19 +58561,13 @@ parameters:
 			path: tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest.php
 
 		-
-			message: '#^Method Symfony\\Component\\HttpKernel\\Fragment\\FragmentRendererInterface@anonymous/tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest\.php\:51\:\:render\(\) has parameter \$options with no value type specified in iterable type array\.$#'
+			message: '#^Method Symfony\\Component\\HttpKernel\\Fragment\\FragmentRendererInterface@anonymous/tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest\.php\:53\:\:render\(\) has parameter \$options with no value type specified in iterable type array\.$#'
 			identifier: missingType.iterableValue
 			count: 1
 			path: tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest.php
 
 		-
-			message: '#^Property Symfony\\Component\\HttpKernel\\Fragment\\FragmentRendererInterface@anonymous/tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest\.php\:51\:\:\$rendered \(string\) does not accept string\|null\.$#'
-			identifier: assign.propertyType
-			count: 1
-			path: tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest.php
-
-		-
-			message: '#^Property Symfony\\Component\\HttpKernel\\Fragment\\FragmentRendererInterface@anonymous/tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest\.php\:51\:\:\$rendered \(string\) on left side of \?\? is not nullable\.$#'
+			message: '#^Property Symfony\\Component\\HttpKernel\\Fragment\\FragmentRendererInterface@anonymous/tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest\.php\:53\:\:\$rendered \(string\) on left side of \?\? is not nullable\.$#'
 			identifier: nullCoalesce.property
 			count: 1
 			path: tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest.php

@@ -54,7 +54,7 @@ abstract class BaseRenderStrategyTest extends TestCase
             /** @var string */
             private $name;
 
-            /** @var string */
+            /** @var string|null */
             private $rendered;
 
             public function __construct(
