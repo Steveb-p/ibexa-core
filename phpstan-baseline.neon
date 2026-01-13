@@ -58567,12 +58567,6 @@ parameters:
 			path: tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest.php
 
 		-
-			message: '#^Property Symfony\\Component\\HttpKernel\\Fragment\\FragmentRendererInterface@anonymous/tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest\.php\:53\:\:\$rendered \(string\) on left side of \?\? is not nullable\.$#'
-			identifier: nullCoalesce.property
-			count: 1
-			path: tests/lib/MVC/Symfony/Templating/BaseRenderStrategyTest.php
-
-		-
 			message: '#^Method Ibexa\\Tests\\Core\\MVC\\Symfony\\Templating\\GlobalHelperTest\:\:testGetAvailableLanguages\(\) has no return type specified\.$#'
 			identifier: missingType.return
 			count: 1
