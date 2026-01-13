@@ -32,12 +32,13 @@ trait ForwardParamOptionsToFragmentRendererTrait
         ];
 
         $fragmentRendererMock
+            ->expects(self::once())
             ->method('getName')
             ->willReturn('fragment_render_mock');
         $fragmentRendererMock->expects(self::once())
             ->method('render')
             ->with(
-                self::callback(static function ($controllerReference) use ($params) {
+                self::callback(static function ($controllerReference) use ($params): bool {
                     if (!$controllerReference instanceof ControllerReference) {
                         return false;
                     }

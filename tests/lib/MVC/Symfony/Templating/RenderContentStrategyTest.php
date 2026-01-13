@@ -138,7 +138,7 @@ class RenderContentStrategyTest extends BaseRenderStrategyTest
             ->method('getName')
             ->willReturn('method_b');
 
-        $controllerReferenceCallback = $this->callback(static function (ControllerReference $controllerReference) {
+        $controllerReferenceCallback = $this->callback(static function (ControllerReference $controllerReference): bool {
             self::assertEquals('ibexa_content::viewAction', $controllerReference->controller);
             self::assertSame([
                 'contentId' => 123,
